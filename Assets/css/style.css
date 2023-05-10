@@ -23,7 +23,7 @@ header {
 .logo {
     cursor: pointer;
     margin-right: auto;
-    font-size: 10px;
+    font-size: 20px;
 }
 
 .nav-links {
@@ -54,4 +54,39 @@ button {
 
 button:hover {
     background-color: rgba(0, 136, 169, 0.8); 
+}
+
+.content {
+    display: inline-block;
+    margin: 0;
+    width: 100%;
+}
+
+.about {
+    padding: 2%;
+    margin: 0 50px;
+    height: auto;
+}
+
+.about img {
+    display: block;
+    margin: 10px;
+    max-width: 300px;
+    float: left;
+}
+
+.about p {
+    text-align: left;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    margin: 1%;
+}
+
+.about h2 {
+    text-align: left;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    margin: 1%;
 }
