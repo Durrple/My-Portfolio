@@ -1,5 +1,5 @@
 # My-Portfolio
-# Challenge-1: Refactoring & Bux Fixes
+# Challenge-2: Creating a Personal Portfolio from Scratch
 ## Description:
   ## For this challenge I created a first portfolio for the bootcamp. It contains a NavBar with hyperlinks to all the sections throughout the page. It contains an About Me section with a temporary description. It has a Projects section with filler images and text for furture bootcamp projects. And finally it has a footer with links to all my socials for people to contact me. Had a rough time getting things to work but in the end it came out alright.
   ## Images of The Website:
