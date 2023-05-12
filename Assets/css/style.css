@@ -182,7 +182,7 @@ a {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin: 1% 5%;
+    margin: auto;
 }
 
 .row1 {
@@ -194,6 +194,7 @@ a {
 
 .card1 img {
     max-width: 800px;
+    height: auto;
 }
 
 .card1 h4 {
@@ -276,7 +277,8 @@ button:hover {
 @media screen and (max-width: 992px) {
 
     footer ul li,
-    .cards {
+    .card1
+    .card {
         display: flex;
         flex-direction: column;
         flex: 0 0 50%;
@@ -286,7 +288,9 @@ button:hover {
 @media screen and (max-width: 768px) {
 
     footer ul li,
-    .cards {
+
+    .card1
+    .card {
         display: flex;
         flex-direction: column;
         flex: 0 0 60%;
