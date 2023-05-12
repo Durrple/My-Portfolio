@@ -10,7 +10,7 @@ li, a, button, p {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 10px;
-    color: #edf0f1;
+    color: white;
     text-decoration: none;
 }
 
@@ -57,6 +57,14 @@ button:hover {
     background-color: darkgreen; 
 }
 
+.Titles {
+    text-align: center;
+    border-bottom: dotted;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    margin: 1%;
+}
 
 /* ------------ About Me ------------- */
 .content {
@@ -115,6 +123,7 @@ a {
     margin-top: 1%;
 }
 
+.card1
 .card {
     display: flex;
     flex-direction: column;
@@ -161,4 +170,126 @@ a {
     cursor: pointer;
     transform: scale(1.03);
     transition: 0.2s;
+}
+
+/* ------------ Bigger ------------- */
+
+a {
+    text-decoration: none;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 1% 5%;
+}
+
+.row1 {
+    width: 800px;
+    height: 600px;
+    border-radius: 20px;
+    margin-top: 1%;
+}
+
+.card1 img {
+    max-width: 800px;
+}
+
+.card1 h4 {
+    color: white;
+    font-size: 1.3rem;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.card1 p {
+    text-align: left;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    margin: 1%;
+}
+
+.card1 .btn {
+    display: inline-block;
+    margin-top: auto;
+    background: green;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    text-align: center;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.card1:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: 0.2s;
+}
+
+/* ------------ Footer ------------- */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.social-links {
+    list-style: none;
+}
+
+.social-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.social-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.social-links li a:hover {
+    color: darkgreen;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: green;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: darkgreen; 
+}
+
+.rights {
+    text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+
+    footer ul li,
+    .cards {
+        display: flex;
+        flex-direction: column;
+        flex: 0 0 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    footer ul li,
+    .cards {
+        display: flex;
+        flex-direction: column;
+        flex: 0 0 60%;
+    }
+
 }
